@@ -1,0 +1,35 @@
+{
+    "schemaVersion": 1,
+    "id": "ici",
+    "version": "${version}",
+  
+    "name": "Ici",
+    "description": "!!here command",
+    "authors": [
+      "hadroncfy"
+    ],
+    "contact": {
+      "homepage": "https://github.com/DichuuCraft/SReplay",
+      "sources": "https://github.com/DichuuCraft/SReplay"
+    },
+  
+    "license": "MIT",
+  
+    "environment": "*",
+    "entrypoints": {
+      "main": [
+        "com.hadroncfy.ici.Mod"
+      ]
+    },
+    "mixins": [
+      "ici.mixins.json"
+    ],
+  
+    "depends": {
+      "fabricloader": ">=0.7.4",
+      "minecraft": "1.14.*"
+    },
+    "suggests": {
+      "flamingo": "*"
+    }
+  }

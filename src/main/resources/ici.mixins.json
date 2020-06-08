@@ -1,0 +1,16 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.hadroncfy.ici.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+      "MixinServerPlayNetworkHandler"
+    ],
+    "client": [
+    ],
+    "server": [
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    }
+}
